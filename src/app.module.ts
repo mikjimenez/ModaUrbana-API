@@ -10,6 +10,13 @@ import { AuthModule } from './auth/auth.module';
 import { UploadModule } from './upload/upload.module';
 import { ClienteProfileModule } from './cliente-profile/cliente-profile.module';
 
+import { CategoriaModule } from './categoria/categoria.module';
+import { ProductoModule } from './producto/producto.module';
+import { PedidoModule } from './pedido/pedido.module';
+import { CarritoModule } from './carrito/carrito.module';
+import { ClienteModule } from './cliente/cliente.module';
+
+
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
@@ -41,6 +48,11 @@ import { ClienteProfileModule } from './cliente-profile/cliente-profile.module';
     AuthModule,
     ClienteProfileModule,
     UploadModule,
+    CategoriaModule,
+    ProductoModule,
+    PedidoModule,
+    CarritoModule,
+    ClienteModule,
   ],
   controllers: [AppController],
   providers: [
