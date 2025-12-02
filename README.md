@@ -71,14 +71,14 @@ Crear archivo `.env` en la raíz del proyecto:
 
 ```env
 # MongoDB
-MONGODB_URI=mongodb://localhost:27017/modaurbana_db
+MONGODB_URI=mongodb+srv://mikjimenez:PaPadondeStas12@clustermodaurbana.ywtwobs.mongodb.net/?appName=ClusterModaUrbana
 
 # JWT
 JWT_SECRET=tu_secreto_super_seguro_aqui_cambiar_en_produccion
 JWT_EXPIRES_IN=7d
 
 # Puerto
-PORT=3012
+PORT=3000
 
 # Node Environment
 NODE_ENV=development
